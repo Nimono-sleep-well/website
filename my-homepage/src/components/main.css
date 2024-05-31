@@ -1,0 +1,20 @@
+.main-icon{
+    text-align: center;
+}
+
+.my-icon{
+    width: 10%;
+    height: 10%;
+}
+
+.introduce{
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.main-op{
+    background-position-y: 70%;
+    background-image: url("./../resource/image/cups.png");
+    background-size: cover;
+}

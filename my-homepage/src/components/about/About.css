@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+}
+
+.favo-icon{
+    width: 30%;
+    height: 30%;
+}
+
+.link-icon{
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.about-tab{
+    text-align: center;
+}
+
+.about-list{
+    display: flex;
+    align-items: center;
+    max-width: 320px;
+    width: 100px;
+    height: 64px;
+    padding: 0px 24px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.about-list:hover{
+    transition-duration: 0.2s;
+    border-bottom: 1px solid #000000;
+}
+
+.tab-list:hover{
+    background-color: #eeeeee;
+}
+
+.title-sign hr{
+    max-width: 1000px;
+}
+
+.about-tab hr{
+    max-width: 700px;
+}

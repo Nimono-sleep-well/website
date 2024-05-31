@@ -1,0 +1,46 @@
+.works-tab{
+    text-align: center;
+}
+
+.works-parents{
+    display: flex;
+    cursor: pointer;
+    max-width: 572px;
+    width: 50%;
+    position: relative;
+}
+
+.works-img{
+    height: auto;
+    width: 100%;
+}
+
+.works-parents .mask{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.2s ease;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mask:hover{
+    opacity: 1;
+}
+
+.mask:hover + img{
+    transform: scale(1.2, 1.2);
+}
+
+.mask h3 {
+    width: 80%;
+}
