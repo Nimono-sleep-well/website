@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Koruri';
+    src: url('../src/assets/fonts/Koruri-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koruri';
+    src: url('../src/assets/fonts/Koruri-Extrabold.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koruri';
+    src: url('../src/assets/fonts/Koruri-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koruri';
+    src: url('../src/assets/fonts/Koruri-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Koruri';
+    src: url('../src/assets/fonts/Koruri-Semibold.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'kana';
+    src: url('/src/assets/fonts/4x4kanafont.ttf')format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSansJP';
+    src: url('../src/assets/fonts/SourceHanSansJP-Bold.otf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSansJP';
+    src: url('../src/assets/fonts/SourceHanSansJP-ExtraLight.otf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSansJP';
+    src: url('../src/assets/fonts/SourceHanSansJP-Heavy.otf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSansJP';
+    src: url('../src/assets/fonts/SourceHanSansJP-Light.otf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSansJP';
+    src: url('../src/assets/fonts/SourceHanSansJP-Medium.otf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSansJP';
+    src: url('../src/assets/fonts/SourceHanSansJP-Normal.otf') format('ttf');
+    font-weight: 350;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceHanSansJP';
+    src: url('../src/assets/fonts/SourceHanSansJP-Regular.otf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DotGothic';
+    src:url('assets/fonts/DotGothic16-Regular.ttf')format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
