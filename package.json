@@ -9,16 +9,20 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.18.0",
+    "@react-three/postprocessing": "^3.0.4",
     "gsap": "^3.13.0",
     "ogl": "^1.0.11",
+    "postprocessing": "^6.37.6",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "three": "^0.178.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -36,5 +40,5 @@
     "tailwindcss": "^3.4.16",
     "vite": "^6.0.5"
   },
-  "homepage": "https://nimono.github.io/portfolio",
+  "homepage": "https://nimono.github.io/portfolio"
 }

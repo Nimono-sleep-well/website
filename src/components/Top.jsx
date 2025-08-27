@@ -3,10 +3,6 @@ import MetaBalls from './MetaBalls/MetaBalls'
 import OpeningAnimation from './OpeningAnimation'
 import SplitText from './SplitText/SplitText'
 
-const handleAnimationComplete = () => {
-    console.log('All letters have animated!');
-};
-
 const Top = () => {
     return (
         <div className='relative w-screen h-screen'>

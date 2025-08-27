@@ -8,17 +8,14 @@ import Contact from './Contact'
 const Main = () => {
     return (
         <div className='bg-black'>
-            <section id="top">
+            <section id="top" className=''>
                 <Top />
             </section>
-            <section id="about">
+            <section id="about" className=''>
                 <About />
             </section>
-            <section id="works">
+            <section id="works" className=''>
                 <Works />
-            </section>
-            <section id="contact">
-                <Contact />
             </section>
         </div>
     )

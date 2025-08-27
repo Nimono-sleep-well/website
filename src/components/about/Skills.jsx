@@ -2,23 +2,23 @@ import React from 'react'
 import SkillCard from './SkillCard'
 
 const skills = [
-    {name: 'Python', icon: "/icons8-python.svg", category: 'Language'},
-    {name: 'JavaScript', icon: "/icons8-javascript.svg", category: 'Language'},
-    {name: 'TypeScript', icon: "/icons8-typescript.svg", category: 'Language'},
-    {name: 'C', icon: "/icons8-c.svg", category: 'Language'},
-    {name: 'React', icon: "/icons8-react.svg", category: 'Framework'},
-    {name: 'Next.js', icon: "/icons8-nextjs.svg", category: 'Framework'},
-    {name: 'Tailwind CSS', icon: "/icons8-tailwindcss.svg", category: 'Framework'},
-    {name: 'Node.js', icon: "/icons8-nodejs.svg", category: 'Framework'},
-    {name: 'GitHub', icon: "/icons8-github.svg", category: 'Tool'},
-    {name: 'Figma', icon: "/icons8-figma.svg", category: 'Design'},
-    {name: 'Blender', icon: "/icons8-blender-3d.svg", category: 'Design'},
+    {name: 'Python', icon: "/skills/icons8-python.svg", category: 'Language'},
+    {name: 'JavaScript', icon: "/skills/icons8-javascript.svg", category: 'Language'},
+    {name: 'TypeScript', icon: "/skills/icons8-typescript.svg", category: 'Language'},
+    {name: 'C', icon: "/skills/icons8-c.svg", category: 'Language'},
+    {name: 'React', icon: "/skills/icons8-react.svg", category: 'Framework'},
+    {name: 'Next.js', icon: "/skills/icons8-nextjs.svg", category: 'Framework'},
+    {name: 'Tailwind CSS', icon: "/skills/icons8-tailwindcss.svg", category: 'Framework'},
+    {name: 'Node.js', icon: "/skills/icons8-nodejs.svg", category: 'Framework'},
+    {name: 'GitHub', icon: "/skills/icons8-github.svg", category: 'Tool'},
+    {name: 'Figma', icon: "/skills/icons8-figma.svg", category: 'Design'},
+    {name: 'Blender', icon: "/skills/icons8-blender-3d.svg", category: 'Design'},
 ]
 
 const Skills = () => {
     return (
         <div
-            className="w-full max-w-2xl bg-gray-100 rounded-lg p-6 flex flex-col items-center justify-center relative"
+            className="w-full max-w-5xl bg-gray-100 rounded-lg p-6 flex flex-col items-center justify-center relative"
             style={{
                 borderTop: '6px solid #9ca3af',
                 borderLeft: '6px solid #9ca3af',

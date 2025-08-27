@@ -9,8 +9,9 @@ const birthday = `2006-11-19`;
 const age = year - parseInt(birthday.slice(0, 4)) - (month < parseInt(birthday.slice(5, 7)) || (month === parseInt(birthday.slice(5, 7)) && day < parseInt(birthday.slice(8, 10))) ? 1 : 0);
 
 const Introduce_myself = () => {
+    const base = process.env.NODE_ENV === 'production' ? '/website/' : '/';
     return (
-        <div className='w-full bg-white flex flex-col items-center pb-40'>
+        <div className='w-full bg-white flex flex-col items-center pb-8 md:pb-12 lg:pb-16 xl:pb-20 2xl:pb-24'>
             <img
                 src="/my_icon.png"
                 alt="Nimonoのアイコン"
